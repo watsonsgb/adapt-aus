@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/aba_res/
+data/silo_raw/
+data/processed/
+outputs/
+renv/library/
