@@ -1,20 +1,21 @@
-# Raw & derived data
-data/aba_res/
-data/silo_raw/
-data/processed/
+# macOS
+.DS_Store
 
-# R env & RStudio clutter
-renv/library/
-renv/staging/
+# R / RStudio
 .Rproj.user/
 .Rhistory
 .RData
+.Ruserdata
 
-# Outputs & logs
+# renv: keep lock + activator, ignore the library
+renv/library/
+renv/staging/
+renv/cache/
+
+# data & outputs
+data/
 outputs/
-*.csv
-*.parquet
-*.png
-*.pdf
-*.log
-*.tmp
+
+# Quarto/knitr junk (if you generate)
+*_cache/
+*.utf8.md
