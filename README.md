@@ -1,6 +1,6 @@
 Replicating Mérel & Gammans adaptation method on ABARES gridded farm data.
 
-Historical data only with potential to try some production
+Historical data only with potential to try prediction but we will see.
 
 Outcome = farm business profit/ha; weather = growing-season total rainfall; calendar-year panel; state×year clustering.
 
